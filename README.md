@@ -1,5 +1,5 @@
 # discord-topics 
-> Simple Discord bot to set a custom channel slowmode. 🍙
+> Simple Discord bot that gives random topics. 🍙
 
 ## Add to your Server 🐥
 > Coming soon
