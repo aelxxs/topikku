@@ -22,9 +22,9 @@ client.on('message', (message) => {
       case 'topic': 
         rp("https://www.conversationstarters.com/generator.php")
            .then((html) => {
-             let $ = cheerio.load(html)
-             let text = $('#random').text()
-             text ? message.channel.send(text) : message.channel.send('Wooops! Looks like something happened while trying to retrieve a topic.')
+             let $ = cheerio.load(html);
+             let text = $('#random').text();
+             text ? message.channel.send(text) : message.channel.send('Wooops! Looks like something happened while trying to retrieve a topic.');
          });
         break;
       case 'ping':
