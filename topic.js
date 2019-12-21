@@ -7,8 +7,8 @@ const rp = require("request-promise");
 const { prefix, token } = require('./config.json');
 
 client.on('ready', () => {
-  console.log(`${client.user.tag} is online.`);
-  client.user.setActivity(`${prefix}topic | @ohagiiman <3`);
+    console.log(`${client.user.tag} is online.`);
+    client.user.setActivity(`${prefix}topic | @ohagiiman <3`);
 });
 
 client.on('message', (message) => {
