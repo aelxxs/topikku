@@ -13,7 +13,7 @@ client.on('ready', () => {
 
 client.on('message', (message) => {
     if(message.author.bot || !message.guild) return;
-    if (!message.content.toLowerCase().startsWith(prefix)) return;
+    if(!message.content.toLowerCase().startsWith(prefix)) return;
 
     const args = message.content.toLowerCase().slice(prefix.length).split(' ');
     const command = args.shift().toLowerCase();
