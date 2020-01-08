@@ -2,7 +2,7 @@
 > Simple Discord bot that gives random topics. 🍙
 
 ## Add to your Server 🐥
-> Coming soon
+> Coming soon (maybe?)
 
 ## Commands 🗿
 - `<prefix>ping`
