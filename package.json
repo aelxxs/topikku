@@ -1,0 +1,28 @@
+{
+	"name": "discord-topics",
+	"version": "1.0.0",
+	"description": "Simple Discord Bot that gives random topics ",
+	"main": "topic.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ohagiiman/discord-topics.git"
+	},
+	"keywords": [
+		"discord"
+	],
+	"author": "ohagiiman (Alexis)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ohagiiman/discord-topics/issues"
+	},
+	"homepage": "https://github.com/ohagiiman/discord-topics#readme",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.3",
+		"discord.js": "^11.5.1",
+		"request": "^2.88.0",
+		"request-promise": "^4.2.5"
+	}
+}
