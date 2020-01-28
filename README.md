@@ -10,7 +10,6 @@ git clone git@github.com:ohagiiman/discord-topics.git
 // Install dependencies (dicord.js, cheerio, request-promise, and request)
 npm install
 // Start bot
-
 // Enter info in config.json
 node .
 ```
