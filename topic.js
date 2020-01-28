@@ -8,7 +8,7 @@ const { prefix, token } = require('./config.json');
 
 client.on('ready', () => {
 	console.log(`${client.user.tag} is online.`);
-	client.user.setActivity(`${prefix}topic`);
+	client.user.setActivity(`${prefix}topic 🍙`);
 });
 
 client.on('message', message => {
